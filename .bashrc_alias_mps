@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # shellcheck disable=SC1090,SC1091,SC2139,SC2015,SC2142,SC2154
 MPS_CONFDIR="/etc/mps"
 [[ -f "$MPS_CONFDIR"/.env ]] && source "$MPS_CONFDIR"/.env
@@ -51,7 +52,8 @@ _mps_install() {
 _mps_merge() {
     merge-ansible-configs.bash
 }
-mps() {
+
+mps_run() {
     cmd="$1"
     target="$2"
     case "$cmd" in
