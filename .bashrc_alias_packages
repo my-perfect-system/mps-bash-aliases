@@ -3,9 +3,9 @@
 # shellcheck disable=SC2139,SC2015,SC2142,SC2154
 
 # apt
-alias pq='apt search'
-alias pi='sudo apt install'
-alias pd='sudo apt remove'
-alias puu='sudo apt update && sudo apt upgrade && sudo apt autoremove'
+alias pas='apt search'
+alias pai='sudo apt install'
+alias par='sudo apt remove'
+alias pauu='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 alias cmmi='./configure && make && sudo make install'
 

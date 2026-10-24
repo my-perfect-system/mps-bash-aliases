@@ -52,7 +52,6 @@ _mps_install() {
 _mps_merge() {
     merge-ansible-configs.bash
 }
-
 mps_run() {
     cmd="$1"
     target="$2"
