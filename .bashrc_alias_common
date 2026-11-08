@@ -10,11 +10,18 @@ alias sb='source ~/.bashrc'
 # xset
 alias xx='xset r rate 250 50'
 
-# apt
-alias pq='apt search'
-alias pi='sudo apt install'
-alias pd='sudo apt remove'
-alias puu='sudo apt update && sudo apt upgrade && sudo apt autoremove'
+# apt-based
+alias paq='apt search'
+alias pai='sudo apt install'
+alias par='sudo apt remove'
+alias pauu='sudo apt update && sudo apt upgrade && sudo apt autoremove'
+alias cmmi='./configure && make && sudo make install'
+
+# dnf-based
+alias pdq='apt search'
+alias pdi='sudo apt install'
+alias pdr='sudo apt remove'
+alias pduu='sudo apt update && sudo apt upgrade && sudo apt autoremove'
 alias cmmi='./configure && make && sudo make install'
 
 # zoxide

@@ -9,7 +9,9 @@ LAST_SESSION_ROOT="/root/.config/nvim-session/last_session.vim"
 
 # vim
 alias edit='nvim'
-alias v='vim'
+alias nv='nvim'
+alias nvd='nvim'
+alias v='nvim'
 alias vi='vim'
 alias sv='sudo vim'
 alias svim='sudo vim'
